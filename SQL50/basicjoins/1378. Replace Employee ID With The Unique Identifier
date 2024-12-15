@@ -1,0 +1,1 @@
+Select empuni.unique_id, emp.name from Employees emp Left join EmployeeUni empuni on emp.id = empuni.id
